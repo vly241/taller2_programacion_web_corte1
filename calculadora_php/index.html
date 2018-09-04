@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>calculadora</title>
+		<link rel="stylesheet" type="text/css" href="../bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="calcu.css">
+	</head>
+	<body background="../imagen/fondo.jpg">
+	<center>
+	    <div>
+	   <h1>Calculadora</h1>
+		<form action="calcu.php" method="post">
+			
+			Ingresa tu primer n&uacute;mero:<br />
+			<input type="text" class="form-control" name="valor1"><br /><br /><br />
+			
+			<select name="operador" class="form-control">
+				<option value="suma">SUMA</option>
+				<option value="resta">RESTA</option>
+				<option value="multi">MULTIPLICACION</option>
+				<option value="div">DIVISION</option>
+				<option value="porc">PORCENTAJE</option>
+				<option value="pt">POTENCIA</option>
+				<option value="rc">RAIZ CUADRADA</option>
+				<option value="log">LOGARITMO</option>
+				
+				
+			</select><br /><br /><br />
+			
+			Ingresa tu segundo valor:<br />
+			<input type="text" class="form-control"  name="valor2"><br><br />
+			<input type="reset" class="btn btn-danger" value="Borrar">
+			<input type="submit" class="btn btn-success" value="Enviar">
+		</form> 
+	</div>
+	</center>
+	
+		
+	</body>
+</html>
