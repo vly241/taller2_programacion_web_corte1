@@ -67,14 +67,16 @@
       <td>
           <?php
          if($_POST[s_1]!=""){
-             print($_POST[s_1]*4/100);
+             $s_1=$_POST[s_1]+88211;
+             print($s_1*4/100);
          }
           ?>
       </td>
         <td>
             <?php
           if($_POST[s_1]!=""){
-             print($_POST[s_1]*4/100);
+              $s_1=$_POST[s_1]+88211;
+             print($s_1*4/100);
          }
           ?>
         </td>
@@ -85,39 +87,55 @@
         </td>
         
         <td><?php
-          
-          ?></td>
+          if($_POST[s_1]!=""){
+              $s_1=$_POST[s_1]+88211;
+             print($s_1*8.3/100);
+         }
+          ?>
+          </td>
         
         <td>
             <?php
-          
+          if($_POST[s_1]!=""){
+              $s_1=$_POST[s_1]+88211;
+             print($s_1*1/100);
+         }
           ?>
         </td>
         <td>
             <?php
-          
+          if($_POST[s_1]!=""){
+              $s_1=$_POST[s_1]+88211;
+             print($s_1*4.1/100);
+         }
           ?>
         </td>
         <td>
             <?php
-          
+          if($_POST[s_1]!=""){
+              $s_1=$_POST[s_1]+88211;
+             print($s_1*8.3/100);
+         }
           ?>
         </td>
         <td>
             <?php
+          if( $_POST[s_1]!=""){
           
+          $s_1 = $_POST['s_1']+88211;
+              
+          $p_s=$s_1*4/100;
+          $c_ps=$s_1*8.3/100;
+          $vacaciones=$s_1*4.1/100;
+          $int_c=$s_1*1/100;
+            
+        $deducciones=$p_s*2+$c_ps*2+$vacaciones+$int_c;      
+            
+          print($resp=$s_1-$deducciones);
+}
           ?>
         </td>
-        <td>
-            <?php
-          
-          ?>
-        </td>
-        <td>
-            <?php
-          
-          ?>
-        </td>
+        
     </tr>
     
     
@@ -159,15 +177,17 @@
       </td>
       <td>
           <?php
-          if($_POST[s_2]!=""){
-             print($_POST[s_2]*4/100);
+         if($_POST[s_2]!=""){
+             $s_2=$_POST[s_2]+88211;
+             print($s_2*4/100);
          }
           ?>
       </td>
         <td>
             <?php
           if($_POST[s_2]!=""){
-             print($_POST[s_2]*4/100);
+              $s_2=$_POST[s_2]+88211;
+             print($s_2*4/100);
          }
           ?>
         </td>
@@ -178,39 +198,55 @@
         </td>
         
         <td><?php
-          
-          ?></td>
+          if($_POST[s_2]!=""){
+              $s_2=$_POST[s_2]+88211;
+             print($s_2*8.3/100);
+         }
+          ?>
+          </td>
         
         <td>
             <?php
-          
+          if($_POST[s_2]!=""){
+              $s_2=$_POST[s_2]+88211;
+             print($s_2*1/100);
+         }
           ?>
         </td>
         <td>
             <?php
-          
+          if($_POST[s_2]!=""){
+              $s_2=$_POST[s_2]+88211;
+             print($s_2*4.1/100);
+         }
           ?>
         </td>
         <td>
             <?php
-          
+           if($_POST[s_2]!=""){
+              $s_2=$_POST[s_2]+88211;
+             print($s_2*8.3/100);
+         }
           ?>
         </td>
         <td>
             <?php
+          if( $_POST[s_2]!=""){
           
+          $s_1 = $_POST['s_2']+88211;
+              
+          $p_s=$s_2*4/100;
+          $c_ps=$s_2*8.3/100;
+          $vacaciones=$s_2*4.1/100;
+          $int_c=$s_2*1/100;
+            
+        $deducciones=$p_s*2+$c_ps*2+$vacaciones+$int_c;      
+            
+          print($resp=$s_2-$deducciones);
+}
           ?>
         </td>
-        <td>
-            <?php
-          
-          ?>
-        </td>
-        <td>
-            <?php
-          
-          ?>
-        </td>
+       
     </tr>
     
     
@@ -249,16 +285,19 @@
           }
           ?>
       </td>
-      <td> <?php
-          if($_POST[s_3]!=""){
-             print($_POST[s_3]*4/100);
+      <td>
+          <?php
+         if($_POST[s_3]!=""){
+             $s_3=$_POST[s_3]+88211;
+             print($s_3*4/100);
          }
           ?>
       </td>
         <td>
             <?php
           if($_POST[s_3]!=""){
-             print($_POST[s_3]*4/100);
+              $s_3=$_POST[s_3]+88211;
+             print($s_3*4/100);
          }
           ?>
         </td>
@@ -268,38 +307,55 @@
           ?>
         </td>
         
-         
-         
+        <td><?php
+          if($_POST[s_3]!=""){
+              $s_3=$_POST[s31]+88211;
+             print($s_3*8.3/100);
+         }
+          ?>
+          </td>
         <td>
             <?php
-          
+          if($_POST[s_3]!=""){
+              $s_3=$_POST[s31]+88211;
+             print($s_3*1/100);
+         }
           ?>
         </td>
         <td>
             <?php
-          
+          if($_POST[s_3]!=""){
+              $s_3=$_POST[s31]+88211;
+             print($s_3*4.1/100);
+         }
           ?>
         </td>
         <td>
             <?php
-          
+          if($_POST[s_3]!=""){
+              $s_3=$_POST[s31]+88211;
+             print($s_3*8.3/100);
+         }
           ?>
         </td>
         <td>
             <?php
+          if( $_POST[s_3]!=""){
           
+          $s_1 = $_POST['s_3']+88211;
+              
+          $p_s=$s_3*4/100;
+          $c_ps=$s_3*8.3/100;
+          $vacaciones=$s_3*4.1/100;
+          $int_c=$s_3*1/100;
+            
+        $deducciones=$p_s*2+$c_ps*2+$vacaciones+$int_c;      
+            
+          print($resp=$s_3-$deducciones);
+}
           ?>
         </td>
-        <td>
-            <?php
-          
-          ?>
-        </td>
-        <td>
-            <?php
-          
-          ?>
-        </td>
+        
     </tr>
   </tbody>
 </table>
